@@ -1,13 +1,14 @@
 import Button from './Button.jsx';
 import Props from './Props.jsx';
 import PFP from './PFP.jsx';
+import MyComponent from './MyComponent.jsx';
+import Counter from './Counter.jsx'
 
 function App() {
 
   return(
   <div className="flex flex-col items-center justify-center h-screen bg-red-50">
-    <PFP/>
-
+    <Counter></Counter>
   </div>
 
   );
